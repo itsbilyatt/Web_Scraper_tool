@@ -14,7 +14,7 @@ setup(
     url='https://github.com/itsbilyatt/Web_Scraper_tool',
     author='prajyot birajdar',
     author_email='prajyotbirajadar1998@gmail.com',
-    packages=['webscraper'],
+    packages=['scraping_tool'],
     install_requires=[
         'bs4',
         'requests',
