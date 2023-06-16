@@ -6,19 +6,18 @@ this_directory = Path(__file__).parent
 long_description = (this_directory / "README.md").read_text()
 
 setup(
-    name='Web_Scraper_tool',
+    name='Webscraper',
     version='0.0.1',
-    description='A tool which will make webscrapping esily.',
+    description='A tool which will help to reduce time for scrapping data.',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/itsbilyatt/Web_Scraper_tool',
     author='prajyot birajdar',
     author_email='prajyotbirajadar1998@gmail.com',
-    packages=['web_scraper'],
+    packages=['data'],
     install_requires=[
-        'numpy',
-        'matplotlib',
-        'scikit-learn'
+        'bs4',
+        'requests',
     ],
     classifiers=[
         'Development Status :: Alpha',
