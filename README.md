@@ -1,11 +1,10 @@
-#  WEBSCRAPER TOOL DEMO 
+#  WEBSCRAPER TOOL
 
-#### name:        prajyot birajdar
-#### contact me : prajyotbirajadar1998@gmail.com
-1)click here:  https://github.com/itsbilyatt/webscraper/tree/main
-2)download as a zip
-3)extract it
-4)Run this command : # pip install 'local file path'  
+
+#### 1)click here:  https://github.com/itsbilyatt/webscraper/tree/main
+#### 2)download as a zip
+#### 3)extract it
+#### 4)Run this command : # pip install 'local file path'  
         
 
 ```python
