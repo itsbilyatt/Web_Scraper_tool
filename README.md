@@ -16,21 +16,21 @@ from webscraper import Webscraper
 
 
 ```python
-Webscraper('https://en.wikipedia.org/wiki/Main_Page').soup_content()
+Webscraper('url').soup_content()
 ```
 
 ## 2)To get soup text (data without html tag) from website
 
 
 ```python
-Webscraper('https://en.wikipedia.org/wiki/Main_Page').soup_text()
+Webscraper('url').soup_text()
 ```
 
 ## 3)soup text  data in form of string to do string operation with that
 
 
 ```python
-text_data=Webscraper('https://en.wikipedia.org/wiki/Main_Page').soup_text_string()
+text_data=Webscraper('url').soup_text_string()
 ```
 
 
@@ -47,7 +47,7 @@ type(text_data)
 
 
 ```python
-content_data = Webscraper('https://en.wikipedia.org/wiki/Main_Page').soup_content_string()
+content_data = Webscraper('url').soup_content_string()
 ```
 
 
